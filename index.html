@@ -6,28 +6,46 @@
     <title>歡迎頁</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Courier New', monospace;
+            background-color: #0d0d0d;
+            color: #00ffee;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
             text-align: center;
-            background-color: #f3f4f6;
-            color: #333;
-            padding: 50px;
         }
         h1 {
-            color: #0078d7;
+            font-size: 3em;
+            text-shadow: 0 0 10px #00ffee, 0 0 20px #00ffee, 0 0 30px #00ffee;
+        }
+        p {
+            font-size: 1.5em;
+            text-shadow: 0 0 8px #ff00ff, 0 0 16px #ff00ff;
         }
         a {
-            text-decoration: none;
-            color: #0078d7;
+            color: #ffcc00;
             font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-shadow: 0 0 10px #ffcc00;
         }
         a:hover {
-            text-decoration: underline;
+            color: #ffffff;
+            text-shadow: 0 0 20px #ffffff;
         }
     </style>
 </head>
 <body>
-    <h1>歡迎來到我的網站！</h1>
-    <p>這是一個簡單的 HTML 歡迎頁範例。</p>
-    <a href="#">點此了解更多</a>
+    <div class="container">
+        <h1>歡迎來到賽博世界</h1>
+        <p>在這裡，未來已到來。</p>
+        <a href="#">探索更多</a>
+    </div>
 </body>
 </html>
